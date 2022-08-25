@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e6e6e6;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.items-card {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.items-grid {
+  max-width: 500px;
+  background-color: #c8c8c8;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.slot-text {
+  min-width: 200px;
+  text-align: end;
+}
+
+.item {
+  min-width: 200px;
+  text-align: start;
+}
+
+button {
+  font-size: 1.5rem;
+}
