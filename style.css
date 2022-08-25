@@ -24,7 +24,7 @@ body {
 }
 
 .items-grid {
-  max-width: 500px;
+  max-width: 700px;
   background-color: #c8c8c8;
   display: grid;
   grid-template-columns: 1fr 1fr;
