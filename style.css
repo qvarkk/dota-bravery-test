@@ -7,6 +7,7 @@
 
 body {
   background-color: #e6e6e6;
+  font-family: 'Roboto', sans-serif;;
 }
 
 .container {
@@ -30,16 +31,14 @@ body {
   gap: 10px;
 }
 
-.slot-text {
-  min-width: 200px;
-  text-align: end;
+.slot-text,
+.item {
+  min-width: 250px;
+  font-size: 1.75rem;
 }
 
-.item {
-  min-width: 200px;
-  text-align: start;
-}
 
 button {
   font-size: 1.5rem;
+  padding: 10px;
 }
